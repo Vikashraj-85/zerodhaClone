@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import signupImg from '../../assets/images/account_open.svg'
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'
+
 
 const Herosec = () => {
 
-    const nevigate = useNavigate();
+  
     const [singupdata, setsingupdata] = useState({
         username: '',
         password: '',
@@ -18,7 +18,9 @@ const Herosec = () => {
 
     const handleOnClick = () => {
         axios.post('http://localhost:4000/user/signin', singupdata)
-            .then(res => { console.log(res) 
+            .then(res => {
+                console.log(res)
+                window.location.href = "http://localhost:5174/";
             })
             .catch(err => console.log(err))
     }
