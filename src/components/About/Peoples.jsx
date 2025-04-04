@@ -1,6 +1,6 @@
 import React from 'react'
 import nikhilImg from '../../assets/images/Nikhil-kamath.jpg'
-import kailashImg from '../../assets/images/kailash.jpg'
+import kailashImg from '../../assets/images/Kailash.jpg'
 import karthikImg from '../../assets/images/karthik.jpg'
 import hananImg from '../../assets/images/Hanan.jpg'
 import seemaImg from '../../assets/images/Seema.jpg'
