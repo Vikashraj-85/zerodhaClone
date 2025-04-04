@@ -1,7 +1,7 @@
 import ChargeTextSec from "./ChargeTextSec";
 import PricingSec from "./PricingSec.jsx";
 import EquitySec from "./EquitySec";
-import Calculator from "./calculatorSex.jsx";
+import calculatorSex from "./CalculatorSex.jsx";
 import ChargeExplainSec from "./ChargeExplainSec";
 import ChargeAccou from "./ChargeAccou";
 import ChargeOptional from './ChargeOptional.jsx'
@@ -16,7 +16,7 @@ export default function PricingPage(){
         <ChargeTextSec/>
         <PricingSec/>
         <EquitySec/>
-        < Calculator/>
+        < calculatorSex/>
         < ChargeExplainSec/>
          < ChargeAccou/>
          < ChargeOptional/>
