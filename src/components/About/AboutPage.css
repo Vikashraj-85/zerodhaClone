@@ -1,0 +1,76 @@
+
+.about-text{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #424242;
+}
+.about-paragraph{
+    color: #666666;
+    font-size: 1.1rem;
+    font-weight: 400;
+    & div p a{
+        font-weight: 500;
+        text-decoration: none;
+        &:hover{
+            color: #424242;
+        }
+    }
+}
+.about-founder-about{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #424242;
+}
+.about-founder-img{
+    text-align: center;
+    & img{
+        width: 295px;
+        border-radius: 50%;
+    }
+    & h3{
+        font-size: 1.2rem;
+        color: #424242;
+    }
+    & p{
+        color: #666666;
+        font-weight: 500;
+    }
+}
+.founder-bio{
+    & p{
+        font-size: 1.06rem;
+        font-weight: 500;
+        color: #666666;
+        & a{
+            text-decoration: none;
+            &:hover{
+                color: #424242;
+            }
+        }
+    }
+}
+.about-peoples{
+    text-align: center;
+        & img{
+            width: 237px;
+            border-radius: 50%;
+            margin: 1.1rem 0;
+        }
+        & h4{
+            font-size: 20px;
+            color: #424242;
+        }
+        & p{
+            color: #666666;
+            font-size: 14px;
+            font-weight: 500;
+        }
+}
+/* ---------responsive------------ */
+
+@media screen and (max-width:400px){
+    .about-text{
+       font-size:  1.5rem;
+    }
+    
+}

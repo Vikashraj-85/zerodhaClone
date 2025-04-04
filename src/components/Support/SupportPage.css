@@ -1,0 +1,79 @@
+.support-hero-sec{
+    background-color: #387DE1;
+
+}
+.support-hero-title{
+    & h2{
+        margin:2.6rem 0 3rem 0;
+        font-size: 1.3rem;
+    }
+    & p{
+        margin-bottom: 1.8rem;
+        font-size: 22px;
+    }
+}
+
+.search-bar {
+    max-width: 600px;
+    margin: auto;
+    & input{
+        height: 3.3rem;
+        border-radius: 3px;
+    }
+}
+.support-left-links {
+    & a{
+       
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+}
+.support-feature{
+    & h4{
+        font-size: 22px;
+    }
+    & ol li {
+        line-height: 2 ;
+        margin-bottom: 1.2rem;
+        & a{
+            font-size: 16px;
+        color: white;
+    }}
+}
+.support-ticket{
+    color: #666666;
+    font-size: 1.3rem;
+}
+.support-ticket-card{
+    & h3{
+        font-size: 18px;
+        color: #424242;
+    }
+    & ul li {
+        list-style: none;
+        margin: 1rem 0;
+        & a{
+            text-decoration: none;
+            &:hover{
+                color: #5a5a5a;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .support-header {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .search-bar {
+        width: 100%;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links a {
+        margin: 5px 0;
+    }
+}

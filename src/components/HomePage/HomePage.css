@@ -1,0 +1,209 @@
+.home-hero-img div{
+    & img{
+        width: 718px;
+        height: 302px;
+    }
+}
+.home-hero-h1{
+    font-size:3rem;
+    color: #424242;
+}
+.home-hero-p{
+    color: #424242;
+
+}
+.home-signup-btn{
+    border-radius: 3px;
+    padding: 0 35px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: White;
+    background-color:#387ED1;
+
+    &:hover{
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+}
+/* -----------------TRUST------------- */
+.trust-h2{
+    font-size: 2rem;
+    color: #424242;
+}
+.trust-card-div h5{
+font-size: 1.25rem;
+color: #424242;
+}
+.trust-card-div p{
+    color: #666666;
+    font-size: 1.1rem;
+}
+.trust-img-link-btn a{
+font-size: .9rem;
+font-weight: 400;
+&:hover{
+    color: #424242;
+
+}}
+
+/* -----------Pricing--------- */
+.pricing-left{
+    & h3{
+        font-size: 2rem;
+        color: #424242;
+    }
+    & p{
+        font-size: 1.14rem;
+        color: #424242;
+        font-weight: 400;
+        
+    }
+    & a{
+        font-weight: 500;
+        text-decoration: none;
+        &:hover{
+            color: #424242;
+        }
+    }
+}
+.pricing-right{
+    position: relative;
+}
+.pricing-right-text{
+    font-size: .65rem;
+    color: #424242;
+    position: absolute;
+    top: 40px;
+    left: 111px;
+}
+/* ---------------Education----------- */
+.education-left{
+    cursor: pointer;
+}
+.education-right{
+    & h3{
+            font-size: 2rem;
+            color: #424242;
+    }
+}
+.education-right-paras{
+    & p{
+        font-size: 1.14rem;
+        color: #424242;
+        font-weight: 400;
+        
+    }
+    & a{
+        font-weight: 500;
+        text-decoration: none;
+        &:hover{
+            color: #424242;
+        }
+    }
+}
+
+/* -------footer---------- */
+.footer{
+    background-color: #FBFBFB;
+}
+.footer-1-text{
+    color: #666666;
+    font-size: .88rem;
+    font-weight: 400;
+}
+.footer-style{
+    text-align: left;
+    line-height: 2;
+    & h2{
+        padding-left: 1.8rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #424242;
+    }
+    & ul {
+        list-style: none;
+      
+        & li a{
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #666666;
+            text-decoration: none;
+            &:hover{
+                color: #387ED1;
+            }
+        }
+    }
+}
+.social-1 a{
+margin-right: 1rem;   
+color: #424242;
+&:hover{
+    color: #387ED1;
+} 
+
+}
+.social-2 a{
+    margin-right: 1rem;   
+    color: #424242;
+    &:hover{
+        color: #387ED1;
+    } 
+    
+}
+.footer-para{
+    & p{
+        font-size: .75rem;
+        color: #666666;
+        font-weight: 400;
+        & a{
+            text-decoration: none;
+            &:hover{
+                color: #424242;
+            }
+        }
+    }
+}
+.footer-end-div-links{
+    & a{
+        color: #666666;
+        text-decoration: none;
+        margin-right: 1.2rem;
+        font-size: small;
+        font-weight: 500;
+        &:hover{
+            color: #387ED1;
+        }
+    }
+}
+
+/* --------responsive ness-------------- */
+@media  screen and (max-width:400px) {
+    .home-hero-img div{
+        & img{
+            width: 335px;
+            height: 140px;
+        }
+    }
+    .trust-img{
+        margin-top: 1.5rem;
+        & img{
+            width: 335px;
+            height: 328px;
+        }
+    }
+    .press-logo{
+        & img{
+            width: 335px;
+        }
+    }
+    .education-left{
+
+        & img{
+            width: 335px;
+            
+        }
+    }
+    .footer-style{
+        text-align: left;
+    }
+}

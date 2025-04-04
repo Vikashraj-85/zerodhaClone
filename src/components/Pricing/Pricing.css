@@ -1,0 +1,99 @@
+.pricing-Charge {
+    text-align: center;
+
+    & h2 {
+        font-size: 44px;
+        color: #424242;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        font-size: 20px;
+        color: #9B9B9B;
+    }
+}
+
+.pricing-pricingSec {
+    text-align: center;
+    & img {
+        width: 250px;
+        margin-bottom: 1rem;
+    }
+    & h3 {
+        font-size: 28px;
+        color: #424242;
+        margin-bottom: 1.5rem;
+
+    }
+    & p{
+        font-size: 16px;
+        color: #666666;
+        font-weight: 500;
+    }
+}
+.pricing-equity ul li button{
+    background-color: white !important;
+    color: #387de1 !important;
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    &:hover{
+        color: #424242 !important;
+    }
+    &:focus{
+        color: #424242 !important;
+        
+    }
+}
+.pricing-calculater {
+    text-align: center;
+    font-size: 1.3rem;
+   & a{
+    text-decoration: none;
+        &:hover{
+            color: #424242;
+        }
+   }
+}
+.pricing-charge-explain-title{
+     font-size: 1.6rem;
+     color: #424242;
+     
+}
+.pricing-charge-explain-paragraph{
+    & h5{
+        font-size: 18px;
+        color: #5e5d5d;
+        margin-bottom: 1.3rem;
+    }
+    & p{
+        font-size: smaller;
+        color: #424242;
+    }    
+    & ul li{
+        font-size: smaller;
+        color: #424242;
+    }
+}
+.pricing-charge-account{
+    font-size: 24px;
+    color: #424242;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+.pricing-charge-optional{
+    font-size: 24px;
+    color: #424242;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+@media screen and (max-width:400px) {
+    #show-in-window{
+       display: none;
+    }
+    .pricing-equity ul li button{
+        font-size: 1rem !important;
+        margin-right: 1rem;
+    }
+}
