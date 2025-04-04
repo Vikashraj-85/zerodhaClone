@@ -7,7 +7,7 @@ import DematAccout from './DematAccount.jsx'
 import Faqs from './Faqs.jsx'
 import InvestOption from './InvestOption.jsx'
 import ZerodhAccount from '../ZerodhaAccount.jsx'
-import './SignupPage.css'
+import './Signuppage.css'
 
 export default function Signup() {
     return (
