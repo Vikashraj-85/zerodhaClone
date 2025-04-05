@@ -20,7 +20,7 @@ const Herosec = () => {
         axios.post('http://localhost:4000/user/signin', singupdata)
             .then(res => {
                 console.log(res)
-                window.location.href = "http://localhost:5174/";
+                window.location.href = "https://zerodhadashboard-pk35.onrender.com/";
             })
             .catch(err => console.log(err))
     }
